@@ -142,4 +142,11 @@
         #checkbox-btn:hover{
             width: 40%;
         }
-        
+        a{
+            position: absolute;
+            left: 131px;
+            top: 185px;
+            text-decoration: none;
+            color: var(--fc);
+            
+        }
