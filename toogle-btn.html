@@ -12,7 +12,7 @@
     }
 
     :root {
-      --bimg: url(images/b1.png) center center / cover no-repeat;
+      --bimg: url(images/n1.png) center center / cover no-repeat;
       --bac: linear-gradient(to right, #d0f2ff, #a8e0ff, #87cefa);
     }
 
@@ -111,21 +111,22 @@
       if (checkbox.checked) {
         document.querySelector(".toogle-btn").style.background =
           "linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(images/night.png) center top / cover no-repeat";
-        document.documentElement.style.setProperty(
           "--bimg",
-          "url(images/n1.png) center center / cover no-repeat"
-        );
-        document.documentElement.style.setProperty(
-          "--bac",
-          "linear-gradient(to right, #2c3e50, #34495e, #22304f)"
-        );
-      } else {
-        document.querySelector(".toogle-btn").style.background =
+          document.documentElement.style.setProperty(
+            "--bimg",
+            "url(images/b1.png) center center / cover no-repeat"
+          );
+          document.documentElement.style.setProperty(
+            "--bac",
+            "linear-gradient(to right, #2c3e50, #34495e, #22304f)"
+          );
+        } else {
+          document.querySelector(".toogle-btn").style.background =
           "linear-gradient(rgba(255,255,255,0.3), rgba(255,255,255,0.2)), url(images/day.png) center center / cover no-repeat";
-        document.documentElement.style.setProperty(
-          "--bimg",
-          "url(images/b1.png) center center / cover no-repeat"
-        );
+           document.documentElement.style.setProperty(
+            "--bimg",
+            "url(images/n1.png) center center / cover no-repeat"
+          );
         document.documentElement.style.setProperty(
           "--bac",
           "linear-gradient(to right, #d0f2ff, #a8e0ff, #87cefa)"
