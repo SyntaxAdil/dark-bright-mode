@@ -142,11 +142,20 @@
         #checkbox-btn:hover{
             width: 40%;
         }
-        a{
+        .page-link{
+            /* border: 1px solid red; */
             position: absolute;
-            left: 131px;
+            width: 100%;         
             top: 185px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            
+        }
+        a{
             text-decoration: none;
             color: var(--fc);
+            font-weight: 700;
             
         }
